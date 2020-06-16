@@ -1,0 +1,95 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.dropzone {
+    height: 300px;
+    width: 800px;
+    background: #E1FAEC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.dropzone p {
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    border-radius: 10px;
+    border: 1px dashed #4ECB79;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.dropzone span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    width: 100%;
+    min-width: 360px;
+    height: 72px;
+    background: #e63888;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.container header h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    color: var(--title-color);
+}
+
+.container select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 40px;
+    width: 500px;
+    appearance: none;
+    flex: 1;
+    background: #F0F0F5;
+    border-radius: 8px;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: #6C6C80;
+}
+
+.container button {
+    width: 260px;
+    height: 56px;
+    background: #e63888;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    align-self: flex-end;
+    margin-top: 40px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:disabled {
+    background: #D8D8D8;
+}
